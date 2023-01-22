@@ -17,12 +17,6 @@ I have provided a table below with how to include this in your minecraft fabric 
 * Sticky Block Registry (e.g. Honey & Slime blocks)
 * Custom Spectator Shader for entities (similar to Enderman, Spider, and Creeper shaders)
 
-### planned features
-
-* Custom shields
-* Custom pressure plates & pressure plate rules
-* Boat modification
-
 ## include the desired version
 ### releases
 If you want to use the latest *Released* version, make sure to include this in your `build.gradle` under `dependencies`:
