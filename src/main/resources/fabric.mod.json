@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://titedog.github.io/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/titedog/struct"
 	},
 	"license": "WTFPL",
 	"icon": "assets/struct/icon.png",

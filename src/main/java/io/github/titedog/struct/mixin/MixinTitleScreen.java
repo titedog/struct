@@ -18,7 +18,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(TitleScreen.class)
 public abstract class MixinTitleScreen extends Screen {
     @Unique
-    private static final String REPOSITORY = "https://github.com/titedog/Contagion";
+    private static final String REPOSITORY = "https://github.com/titedog/struct";
 
     private MixinTitleScreen(Text title) {
         super(title);
