@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "struct",
+	"version": "${version}",
+	"name": "struct",
+	"description": "A general-purpose library for modders to use.",
+	"authors": [
+		"titedog"
+	],
+	"contact": {
+		"homepage": "https://titedog.github.io/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "WTFPL",
+	"icon": "assets/struct/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "io.github.titedog.struct.Struct"
+		]
+	},
+	"mixins": [
+		"struct.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.13",
+		"minecraft": "~1.18.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
